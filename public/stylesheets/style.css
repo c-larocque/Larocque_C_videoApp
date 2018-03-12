@@ -132,18 +132,20 @@ footer {
     text-transform: uppercase;
     font-weight: 300;
     margin-bottom: 30px; }
-  .videos-con .video-posters li {
-    width: 250px;
-    height: 150px;
-    overflow: hidden;
-    float: left; }
-  .videos-con .video-posters img {
-    width: 250px;
-    margin-top: -50%; }
-  .videos-con .video-posters p {
-    font-weight: 300;
-    margin-left: 15px;
-    color: #999; }
+  .videos-con .video-posters {
+    margin: 0 auto; }
+    .videos-con .video-posters li {
+      min-width: 250px;
+      height: 150px;
+      overflow: hidden;
+      float: left; }
+    .videos-con .video-posters img {
+      width: 250px;
+      margin-top: -50%; }
+    .videos-con .video-posters p {
+      font-weight: 300;
+      margin-left: 15px;
+      color: #999; }
 
 #kids-welcome {
   background-color: #efac14; }
@@ -181,7 +183,7 @@ video {
     .video-details .storyline p, .video-details .reviews p {
       font-size: 15px;
       font-weight: 300; }
-  .video-details .reviews p {
+  .video-details .no-review {
     font-style: italic; }
   .video-details form {
     background-color: rgba(219, 228, 238, 0.5);
