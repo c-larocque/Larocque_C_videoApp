@@ -1,0 +1,29 @@
+<video controls autoplay>
+  <source src="/video/{{ moviesData.movies_trailer }}" type="video/mp4">
+</video>
+
+<section class="video-details">
+  <h2>{{ moviesData.movies_title }}</h3>
+  <div class="video-socials">
+    <img src="/images/facebook.svg" alt="Facebook icon">
+    <img src="/images/twitter.svg" alt="Twitter icon">
+    <img src="/images/instagram.svg" alt="Instagram icon">
+  </div>
+  <div class="info">
+    <p>{{ moviesData.movies_year}}</p>
+    <p class="rating">{{ rating }}</p>
+  </div>
+  <div class="storyline">
+    <h3>STORYLINE:</h3>
+    <p>{{ moviesData.movies_storyline }}</p>
+  </div>
+  <div class="reviews">
+    <h3>REVIEWS:</h3>
+    <p>There are no reviews. Be the first and submit one below.</p>
+  </div>
+  <form class="" action="index.html" method="post">
+    <label for="">Write a comment:</label>
+    <textarea type="text" name="" placeholder="Add a comment or write a review."></textarea>
+    <input type="submit" name="submit" value="Add Comment">
+  </form>
+</section>

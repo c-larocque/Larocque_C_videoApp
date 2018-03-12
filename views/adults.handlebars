@@ -1,0 +1,71 @@
+<div class="main-body">
+  <h1>Welcome to the <span>{{ title }}</span> video selection</h1>
+<section class="videos-con" id="movies">
+  <div class="heading row">
+    <h2 class="col-sm-12 col-md-3">{{ moviesHeading }}</h2>
+    <div class="dropdown-con col-sm-12 col-md-1 offset-md-6">
+      <button class="dropdown-button">Genre:</button>
+      <div class="dropdown-info">
+        <a href="#">Action</a>
+        <a href="#">Comedy</a>
+        <a href="#">Horror</a>
+        <a href="#">Romance</a>
+        <a href="#">Romcom</a>
+      </div>
+    </div>
+    <div class="dropdown-con col-sm-12 col-md-1">
+      <button class="dropdown-button">Rating:</button>
+      <div class="dropdown-info">
+        <a href="#">1 star</a>
+        <a href="#">2 stars</a>
+        <a href="#">3 stars</a>
+        <a href="#">4 stars</a>
+        <a href="#">5 stars</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="video-posters row">
+    <ul>
+      {{#each moviesData}}
+        <li class="col-sm-6 col-md-4 col-lg-3">
+            <a href="/details/{{ movies_trailer }}">
+              <img src="/images/{{ movies_cover }}" alt="{{ movies_title }}">
+            </a>
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+</section>
+
+<section class="videos-con" id="favourites">
+  <div class="heading row">
+    <h2 class="col-sm-12 col-md-3">{{ favsHeading }}</h2>
+    <div class="dropdown-con col-sm-12 col-md-1 offset-md-6">
+      <button class="dropdown-button">Genre:</button>
+      <div class="dropdown-info">
+        <a href="#">Action</a>
+        <a href="#">Comedy</a>
+        <a href="#">Horror</a>
+        <a href="#">Romance</a>
+        <a href="#">Romcom</a>
+      </div>
+    </div>
+    <div class="dropdown-con col-sm-12 col-md-1">
+      <button class="dropdown-button">Rating:</button>
+      <div class="dropdown-info">
+        <a href="#">1 star</a>
+        <a href="#">2 stars</a>
+        <a href="#">3 stars</a>
+        <a href="#">4 stars</a>
+        <a href="#">5 stars</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="video-posters row">
+    <p>{{ message }}</p>
+  </div>
+</section>
+
+</div>
