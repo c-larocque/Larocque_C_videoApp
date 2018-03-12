@@ -11,7 +11,7 @@ router.get('/:id', function(req, res, next) {
       console.log(result);
 
       res.render('details', {
-        rating : 'Not rated',
+        //rating : 'Not rated',
         moviesData: result[0]
       });
     }

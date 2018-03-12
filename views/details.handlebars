@@ -11,7 +11,7 @@
   </div>
   <div class="info">
     <p>{{ moviesData.movies_year}}</p>
-    <p class="rating">{{ rating }}</p>
+    <p>{{ moviesData.movies_rating }}</p>
   </div>
   <div class="storyline">
     <h3>STORYLINE:</h3>
@@ -19,7 +19,8 @@
   </div>
   <div class="reviews">
     <h3>REVIEWS:</h3>
-    <p>There are no reviews. Be the first and submit one below.</p>
+    <p>{{ moviesData.movies_reviews }}</p>
+    <p class="no-review">There are no more reviews. You can submit one below.</p>
   </div>
   <form class="" action="index.html" method="post">
     <label for="">Write a comment:</label>

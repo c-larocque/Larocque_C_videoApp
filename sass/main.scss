@@ -188,8 +188,9 @@ footer {
     margin-bottom: 30px;
   }
   .video-posters {
+    margin: 0 auto;
     li {
-      width: 250px;
+      min-width: 250px;
       height: 150px;
       overflow: hidden;
       float: left;
@@ -253,7 +254,7 @@ video {
       font-weight: 300;
     }
   }
-  .reviews p {
+  .no-review {
     font-style: italic;
   }
 

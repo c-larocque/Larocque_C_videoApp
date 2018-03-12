@@ -1,12 +1,6 @@
-# Larocque_C_videoApp
+# WATCHNOW Video Application
 
-# VideoApp
-
-This is just a quick app to allow users to check out what ever movie trailers and info on the site.
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This video application is a new way to watch movies online, allowing parents to control what their kids can see and watch online.
 
 ### Installing
 
