@@ -1,5 +1,9 @@
-/* quick reset */
-* { margin: 0; border: 0; padding: 0; }
+/* Reset */
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
 
 $openSans: 'Open Sans', Helvetica, sans-serif;
 
@@ -33,42 +37,19 @@ body {
     #sign-in {
       float: right;
       padding: 10px 20px;
-      border: 2px solid #000;
-      color: #000;
+      background-color: #333;
+      color: #fff;
       border-radius: 8px;
       font-size: 14px;
       text-decoration: none;
       &:hover {
-        background-color: #333;
-        color: #fff;
+        border: 2px solid #000;
+        color: #000;
+        background-color: #fff;
       }
     }
   }
 }
-
-// header {
-//   background-color: #fff;
-//   padding: 20px;
-//   height: 60px;
-//   img {
-//     width: 270px;
-//     float: left;
-//   }
-//   nav{
-//     float: left;
-//     padding-top: 26px;
-//     margin-left: 50px;
-//     ul{
-//       list-style-type: none;
-//       color: #000;
-//       li{
-//         display: inline-block;
-//         margin-right: 30px;
-//       }
-//     }
-//   }
-//
-// }
 
 .usersCon {
   .userBut {

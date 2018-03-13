@@ -11,7 +11,6 @@ router.get('/', function(req, res, next) {
       console.log(result);
       res.render('adults', {
         moviesHeading : 'Movies',
-        tvHeading : 'Television',
         favsHeading : 'Favourites',
         title : 'Adult',
         message : 'You have not selected any favourites.',

@@ -1,4 +1,4 @@
-/* quick reset */
+/* Reset */
 * {
   margin: 0;
   border: 0;
@@ -28,14 +28,15 @@ body {
     .navbar #navbarText #sign-in {
       float: right;
       padding: 10px 20px;
-      border: 2px solid #000;
-      color: #000;
+      background-color: #333;
+      color: #fff;
       border-radius: 8px;
       font-size: 14px;
       text-decoration: none; }
       .navbar #navbarText #sign-in:hover {
-        background-color: #333;
-        color: #fff; }
+        border: 2px solid #000;
+        color: #000;
+        background-color: #fff; }
 
 .usersCon .userBut {
   min-height: 75vh;
